@@ -22,3 +22,60 @@ h1 {
     font-size: 150px;
     color: aliceblue;
 }
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5474fc;
+    text-align: center;
+    font-size: smaller;
+}
+
+h1 {
+    
+    position: absolute;
+    top: 255px; /* Posiciona 50px a partir do topo */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajuste para verdadeira centralização horizontal */
+    color:  aliceblue;
+    font-size: 22px;
+    
+  }
+
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh; /* 100% da altura da janela */
+    font-size: 100px;
+}
+
+.far {
+    font-size: 150px;
+    color: aliceblue;
+}
+
+.container {
+    background-color:aliceblue;
+    border-radius: 5px;
+    padding: 10%;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 10%;
+    display: flex;
+    justify-content: flex-start;  /* Alinha horizontalmente */
+    align-items: 10px;      /* Alinha verticalmente */
+    flex-direction: column;   /* Define o fluxo dos itens como coluna */
+}
+
+p {  
+    line-height: 5px;
+    margin-bottom: 0%;
+    font-size: 200px;
+
+}
+
+
+
+
