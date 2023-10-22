@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="segundaTela.css">
+</head>
+
+<body>
+    <div class="container"> 
+        <h1>Organize seu dia</h1>
+        <p class="mes"><b>Out</b></p> 
+    </div>
+    <div class="imagem">
+        <img src="img/data.png" alt="calendario">
+    </div>
+    <div class="seila">
+        <p class="tarefas">11:00 hr Lanche</p>
+        <p class="tarefas">12:00 hr Banho</p>
+        <p class="tarefas">12:40 hr Dentista</p>
+    </div>
+    
+
+    
+</body>
+</html>
