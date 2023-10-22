@@ -64,4 +64,7 @@ header h1 {
     margin-top: 10px; 
    
 }
+#link_Tela_inicial {
+    text-decoration: none;
+} /* A primeira tela vem até aqui */
 
