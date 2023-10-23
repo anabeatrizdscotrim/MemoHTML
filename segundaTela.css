@@ -12,6 +12,9 @@ body {
 .container h1 {
     color: aliceblue;
     font-size: 25px ;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
 }
  
 .mes {
@@ -23,16 +26,63 @@ body {
     color:  #5474fc;
     background-color: aliceblue;
     font-size: 20px;
-    
+    margin-top: 10px;
+ 
 }
 
 .container {
     display: inline-block;
     justify-content: center;
     align-items: center;
-     
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;               
+    height: 20vh;     
 }
 
+.imagem {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.tarefas {
+    border: 1px solid aliceblue ;  
+    border-radius: 50px;
+    padding: 15px;
+    width: 350px;
+    color:  #5474fc;
+    background-color: aliceblue;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.fas {
+    font-size: 40px; 
+    color: aliceblue;
+    margin-top: 25px;
+    border: 1px solid #f15669;
+    background-color: #f15669; 
+    border-radius: 50px;
+    padding: 15px;
+    width: 68px;
+}
+
+.itens {
+    display: flex;
+    flex-direction: column;      
+    justify-content: center;    
+    align-items: center;        
+    height: 25vh;     
+    
+}
+
+.plusicon-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
 
 
 
